@@ -1,0 +1,398 @@
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+font-family: sans-serif;
+}
+
+
+.back img{
+  position: relative;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100vh;
+  background-position: center bottom;
+}
+
+h3 img{
+    width: 20px;
+    cursor: pointer;
+}
+.content{
+position: absolute;
+top: 20%;
+margin-left: 10px;
+
+text-align:center 
+}
+  .content h1{
+  font-size: 60px;
+  margin-bottom: 25;
+  color: #fff;
+ 
+  }
+
+  .content p{
+    font-size: 60px;
+    font-weight: 500;
+    color: #fff;
+    
+  }
+  
+  .content br {
+      color: #ff960b;
+  }
+  
+  #yes{
+    color:#ff960b ;
+  }
+  .content p{
+      line-height: 22px;
+      font-size: 15px;
+  }
+  
+     .coin-list{
+  position:absolute;
+  right:15%;
+  bottom:2%;
+  display:flex;
+  align-items: center;
+  } 
+  
+  .coin{
+      display: flex;
+      align-items: center;
+      font-size: 15px;
+      margin-left: 10px;
+  color: #ff960b;
+      border: 2px solid #fff;
+      padding: 20px 30px;
+      border-radius: 10px;
+  }
+  
+  
+  .coin img{
+  width: 15px;
+  margin-left: -5x;
+  }
+  
+  .coin h3{
+  color: #fff;
+  margin-bottom: 5px;
+  font-weight: 5;
+   }
+  
+  
+  @media screen and (max-width: 850px) {
+      ul{
+        display: none;
+      }  
+  .en{
+      padding-left: 200px;
+     
+  }
+  nav{
+      justify-content: space-between;
+  }
+   .coin{
+  margin-left: 5%;
+  margin-bottom: 30px;
+  padding: 0;
+  }
+
+  .coin{
+    font-weight: 2px;
+  }
+  .h3{
+      font-size: small;
+      margin: auto;
+      }
+      .br{
+          font-size: small;
+          padding-left: 1px;
+      }
+      .form-box{
+        display: contents;
+        justify-content: center;
+        
+       }
+       .button-box{
+        margin-top: 60px;
+       }
+
+       .box{
+        width: 20%;
+      }
+    .mypics{
+      width: 700px;
+      
+      padding-top: 60px;
+      height: 700px;
+    }
+    .h2 ol{
+    
+       padding-left: 50px;
+      
+       margin-left: 20%;
+     }
+
+     .app{
+      margin-bottom: 50px;
+      padding-bottom: 50px;
+     }
+    
+     .app h2{
+      font-weight: 100;
+      font-size: medium;
+
+      
+      
+     
+     }
+
+      #my{
+        padding-top: 100px;
+        margin-top: 50px;
+        padding-bottom: ;
+      } 
+       
+
+
+      .phone{
+     width: 100%;
+     height: 300px;
+     
+      }
+
+
+      .theteam img{
+        width: 100px;
+        height: 100px;
+        margin-top: 10px;
+        padding-left: 10px;
+      
+        }
+       }
+      
+      
+  
+
+      
+  .dad{
+    position:relative;
+    height: 100vh;
+    background-color:#fff;
+    overflow: hidden;
+    
+}
+
+  .hero__video{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    width: auto;
+    height: auto;
+    transform: translateX(-50%) translateY(-50%)
+    }
+
+  .form-box{
+width: 380px;
+height: 550px;
+position: absolute ;
+margin-top: 50px;
+margin-left: 700px;
+margin-bottom: -70px;
+background: rgba(106, 79, 28, 0.476);
+padding: 30px;
+overflow: hidden;
+
+  }
+
+
+  .button-box{
+margin-left: 95px ;
+margin-bottom: 90px;
+width: 200px;
+position: relative;
+box-shadow: 0 0 20px 9px #ff61241f;
+border-radius: 60px;
+
+  }
+
+
+  .toggle-btn{
+padding:10px 20px;
+cursor:pointer;
+background: transparent;
+border: 0;
+outline: none;
+position: relative;
+ }
+
+ 
+ .btn{
+top: 0;
+left: 0;
+position: absolute;
+width: 90px;
+height: 100%;
+background: linear-gradient( to right,#ff105f, #ffad06, );
+border-radius: 30px;
+transition: .5s;
+}
+
+.input-group{
+    top: 20px;
+    position: absolute;
+    width: 230px;
+    transition: .5s;
+}
+
+.input-field{
+width: 100%;
+padding: 10px 0;
+margin: 5px 0;
+border-left: 0;
+border-bottom: 1px solid #999;
+border-right: 0;
+border-top: 0;
+outline: none;
+background: transparent;
+}
+
+
+::placeholder{
+color: white;
+font-size: large;
+
+
+}
+.submit-btn{
+width: 65%;
+padding-left: 50px;
+cursor: pointer;
+display: block;
+margin: auto;
+margin-left: 50%;
+border: 0;
+
+border-radius: 40px;
+margin-bottom: -50px;
+}
+
+.check-box{
+margin: 30px 10px 30px 0;
+}
+
+.we{
+color:#777;
+font-size: 15px;
+bottom: 25px;
+position: absolute;
+margin-top: 70px;
+}
+
+
+
+#login{
+left: 5px;
+
+}
+
+#register{
+    left: 400px;
+    padding-left: 60px;
+}
+
+.heart2{
+  width: 300px;
+  padding-left: auto;
+}
+
+
+.heart3{
+  width: 300px;
+  padding-left: auto;
+ 
+}
+
+  
+.heart1{
+  width: 300px;
+  padding-left: auto;
+  
+}
+
+.heart4{
+  width: 300px;
+  padding-left: auto;
+  
+}
+
+.lap1{
+  text-decoration: none;
+  
+ 
+}
+
+.lap2{
+  text-decoration: none;
+}
+
+.lap3{
+  text-decoration: none;
+}
+
+
+.lap4{
+  text-decoration: none;
+}
+
+.mypics{
+  
+  
+  
+  width: 200px;
+  height: 70%;
+  background-position: center bottom;
+  
+  border-radius:auto;
+  align-items: center;
+  margin-top: 50px;
+  padding-left:20px;
+  
+  
+}
+
+.realapp{
+  background-color: #777;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+}
+.app{
+ margin-top: 50px;
+  padding-left: 20px;
+  padding-top: 70px;
+ 
+}
+
+ol li{
+ font-family: 'Times New Roman', Times, serif;
+ 
+}
+#fuck{
+padding-left: auto;
+padding-right: auto;
+margin-left: auto;
+margin-right: auto;
+}
+.lead{
+  text-align: center;
+}
+
+
+
+
