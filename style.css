@@ -240,7 +240,27 @@ width: 90px;
 height: 100%;
 background: linear-gradient( to right,#ff105f, #ffad06, );
 border-radius: 30px;
-transition: .5s;
+transition: .3s;
+
+
+}
+
+.btn__form{
+  color: #ff105f;
+}
+
+.btn___form{
+  color: #ff105f;
+}
+
+.btn__form:hover{
+  transform: scale(1.15s);
+  color: #37500676;
+}
+
+.btn___form:hover{
+  transform: scale(1.15s);
+  color: #37500676;
 }
 
 .input-group{
